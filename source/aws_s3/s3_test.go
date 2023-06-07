@@ -8,8 +8,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
-	st "github.com/golang-migrate/migrate/v4/source/testing"
 	"github.com/stretchr/testify/assert"
+	st "github.com/witwoywhy/migrate/source/testing"
 )
 
 func Test(t *testing.T) {

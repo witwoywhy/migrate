@@ -12,9 +12,9 @@ import (
 	"go.uber.org/atomic"
 
 	"github.com/gocql/gocql"
-	"github.com/golang-migrate/migrate/v4/database"
-	"github.com/golang-migrate/migrate/v4/database/multistmt"
 	"github.com/hashicorp/go-multierror"
+	"github.com/witwoywhy/migrate/database"
+	"github.com/witwoywhy/migrate/database/multistmt"
 )
 
 func init() {

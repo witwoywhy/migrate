@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/golang-migrate/migrate/v4"
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
 	_ "github.com/mutecomm/go-sqlcipher/v4"
+	"github.com/witwoywhy/migrate"
+	dt "github.com/witwoywhy/migrate/database/testing"
+	_ "github.com/witwoywhy/migrate/source/file"
 )
 
 func Test(t *testing.T) {
